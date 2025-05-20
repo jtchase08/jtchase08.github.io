@@ -26,3 +26,8 @@ body {
     background-color: #ffffff;
     color: #000000;
 }
+
+.vertical-link {
+    display: block;
+    margin-bottom: 10px; /* Optional: Adds some space between the links */
+}
