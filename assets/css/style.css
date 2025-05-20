@@ -9,7 +9,7 @@ body {
     background-size: cover;
 }
 
-#link {
+.vertical-link {
     text-decoration: none;
     background-color:rgb(30, 37, 255);
     color: #ffffff;
@@ -20,14 +20,11 @@ body {
     transition: background-color 0.3s, color 0.3s;
     display: block;
     margin-bottom: 10px;
-}
-
-#link:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.vertical-link {
     display: block;
     margin-bottom: 10px; /* Optional: Adds some space between the links */
+}
+
+.vertical-link:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
